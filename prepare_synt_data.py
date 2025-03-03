@@ -11,7 +11,7 @@ from scripts.impulse import impulse_support
 from scripts.impulse import convolution_matrix
 from scripts.depth_to_time import create_timegrid
 from scripts.depth_to_time import model_to_time_uniform
-from scripts.depth_to_time import data_to_depth_uniform
+# from scripts.depth_to_time import data_to_depth_uniform
 
 
 def _main():

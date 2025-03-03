@@ -34,15 +34,18 @@ All binary files written in column-order (Fortran style) with single precision.
 
 # Installation
 
+## Requirements
+Python 3.12 is used in this project.
+
 ## Python virtual environment
 For Windows, run
 ```
-python.exe -m venv env
+py -3.12 -m venv env
 env\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-For Ubuntu, run
+For Linux, run
 ```
 sudo apt install python3.12-dev python3.12-venv
 python3.12 -m venv env

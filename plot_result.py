@@ -112,7 +112,7 @@ def _plot_image_rpp_2d(
     # Plot figures
     amax = np.max(np.abs(img_noise))
     vmin, vmax = -mult * amax, mult * amax
-    cmap = plt.colormaps["jet"]
+    cmap = plt.colormaps["binary"]
     imn = axn.pcolormesh(
         ox,
         ot,

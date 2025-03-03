@@ -1,4 +1,5 @@
 import os
+os.environ["OMP_NUM_THREADS"] = "1"  # Using 1 thread will be actually faster here
 import numpy as np
 from tqdm import tqdm
 from pathlib import Path
